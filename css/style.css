@@ -255,6 +255,11 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-align: left;
 	color: #777;
 } 
+.about h4 strong{
+	font-size: 25px;
+	text-align: left;
+	color: rgb(243, 8, 8);
+} 
 .about-agileinfo-list, .about-agileinfo-image {
 	width: 33%;
 	float: left;
@@ -386,7 +391,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .real h3 {
     font-size: 30px;
-    color: #bdd001;
+	/* color: #bdd001; */
+	color: blue;
     margin-top: 50px;
     font-weight: 300;
 }
