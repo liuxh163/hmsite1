@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>海马应用下载</title>
+		<link rel="stylesheet" href="css/comm.css">
+		<link rel="stylesheet" href="css/appdl.css">
+	
+		<body style="">
+			<div id="wd_templateId" class="hp-main lm-dlpag _clear">
+				<div class="top-content">
+					<p class="arr"><span class="arrow"><img src="img/arrow.png"></span></p>
+					<p>无法下载时请点击右上角<span class="dot">…</span>按钮</p>
+					<p class="se">选择在浏览器中打开即可<span class="arrow"></span></p>
+				</div>
+				<div class="lm-dlpag-topbox">
+					<div class="lm-topinfo"><img id="appioc" class="lm-topinfo-himg" src="img/logo.png">
+						<div id="appname" class="lm-topinfo-name" title="寻知图学生端">织育测评</div>
+						
+						<div class="lm-topinfo-btn"><span id="iosdl" class="lm-ios" >
+							<a href="https://itunes.apple.com/us/app/伟东测评/id1383174784?l=zh&ls=1&mt=8">IOS下载</a>
+							</span> 
+							<span id="androiddl" class="lm-android" style=""><a href="http://demo.zhiyu365.cn/apk/android.apk">安卓下载</a></span> </div>
+						<div class="lm-topinfo-tip1 lm-tip" style="display: none;">此应用不是<i></i>应用，您的手机无法安装哦</div>
+					</div>
+				</div>
+				<div class="lm-dlpag-contentbox">
+					<div class="lm-introduce">
+						<h4>应用简介</h4>
+						<div id="appxtx">海马医旅致力于成为中国领先的互联网国际医疗科技服务平台，通过高效、透明的医疗健康资源整合和大数据智能化服务，为国人提供海外医疗健康全面的产品服务及解决方案</div>
+						</div>
+					<!-- <div class="lm-introduce">
+						<h4>信息</h4>
+						<div id="appoinfo">
+							开发商：北京伟东凌鸿教育科技有限公司</br>
+							客服电话：400-0126-176
+						</div>
+					</div> -->
+					<!--<div class="lm-introduce">
+						<h4>应用简介</h4>
+						<div>
+							<div id="appdesc" class="lm-appdesc">【产品简介】 寻知图是一款面向中小学生暑假期间学习提升的移动APP，类似可汗学院知识地图的产品，结合中国基础教育教学知识点的实际情况，以各个学科知识图谱为核心，提供可视化知识点地图。产品有地图和课程两种视图可供切换，学生在每个知识点上完成看视频、做练习、拓展学习的学习活动，帮助学生踏实掌握知识点，构建学科知识体系，培养学科能力和良好学习习惯，提升学习效率和学习效果。 【产品特点】 特点一：游戏化软件界面，增加学习乐趣 特点二：操作特点符合中小学生使用习惯 特点三：专注于教学教改，每个课程都适配新版 【课程体系】 严格采用全国统一的课程项目规范 打造“任务单+微课+进阶练习”一体化的课程体系 【师资团队】 北师大教育技术专业专家引领 优秀老教师指导与授课 骨干中青教师倾力打造 </div> <span id="more"></span></div>
+					</div>-->
+				</div>
+				<!-- <div class="lm-dlpag-footbox">
+					<div>伟东云教育<br>服务邮箱：service@wdcloud.cc</div>
+				</div> -->
+			</div>
+		</body>
+		
+		<script>
+			
+			var browser = {
+    versions:function(){ 
+        var u = navigator.userAgent, app = navigator.appVersion; 
+        return {
+           trident: u.indexOf('Trident') > -1, //IE内核
+           presto: u.indexOf('Presto') > -1, //opera内核
+           webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+           gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+           mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+           ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+           android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+           iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone
+           iPad: u.indexOf('iPad') > -1, //是否iPad
+        };
+    }(),
+    language:(navigator.browserLanguage || navigator.language).toLowerCase()
+};
+
+//document.writeln("语言版本: "+browser.language);
+//document.writeln(" 是否为移动终端: "+browser.versions.mobile);
+//document.writeln(" ios终端: "+browser.versions.ios);
+//document.writeln(" android终端: "+browser.versions.android);
+//document.writeln(" 是否为iPhone: "+browser.versions.iPhone);
+//document.writeln(" 是否iPad: "+browser.versions.iPad);
+//document.writeln(navigator.userAgent);
+
+if( browser.versions.ios || browser.versions.iPhone || browser.versions.iPad){
+    var androiddl=document.getElementById("androiddl")
+    androiddl.style.display='none'
+    
+    
+}else if( browser.versions.android ){
+    var iosdl=document.getElementById("iosdl")
+    iosdl.style.display='none'
+    
+  
+}else{
+}
+			
+		</script>
+
+</html>

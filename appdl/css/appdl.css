@@ -1,0 +1,238 @@
+html, body {
+	display: block;
+	width: 100%;
+}
+
+a{color: #1199ff;}
+.top-content {
+	background:#333;
+	width: 100%;
+	height: 70px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.top-content .arr {
+	position: absolute;
+	right: 20px;
+	top: 4px;
+}
+.top-content p{
+	margin: 0;
+	padding: 0;
+	height: 26px;
+}
+.top-content p.se{
+	margin: 0;
+	padding: 0;
+	height: 30px;
+}
+.top-content .warning img{
+	width: 14px;
+	margin-bottom: -3px;
+	margin-right: 4px;
+}
+.top-content .dot img{
+	width: 16px;
+	margin-bottom: -3px;
+	margin-right: 4px;
+}
+.top-content .arrow img{
+	width: 20px;
+}
+.lm-dlpag {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.lm-dlpag-topbox {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: url(../img/phone_bg.jpg) no-repeat center top;
+	background-size: 100% auto;
+}
+.lm-topinfo{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.lm-topinfo-himg {
+    width: 80px;
+    height: 80px;
+	margin-top: 20%;
+	border-radius: 5px;
+}
+@media (min-width: 320px) and (max-width: 560px) {
+	.lm-topinfo-himg {
+		margin-top: 10%;
+	}
+}
+@media (min-width: 560px) {
+	.lm-topinfo-himg {
+		margin-top: 13%;
+	}
+}
+.lm-topinfo .lm-topinfo-name {
+	font-size: 1rem;
+	color: #333333;
+	margin-top: 5px;
+}
+.lm-topinfo .lm-topinfo-start {
+	margin-top: 13px;
+}
+.lm-topinfo .lm-topinfo-start>div{
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 2%;
+}
+.lm-topinfo .lm-topinfo-start>div>span{
+	float: left;
+	font-size: 1rem;
+	color: #666666;
+}
+.lm-topinfo .lm-topinfo-start>div.lm-topinfo-num>span{
+	color: #0066CC;
+}
+.lm-topinfo .lm-topinfo-start .lm-other-lll-startbg {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+    background: url(../images/star3.png) left repeat-x;
+    background-size: 20px 20px;
+    margin-left: 50%;
+    left: -50px;
+    margin-bottom: 3%;
+}
+.lm-topinfo .lm-topinfo-start .lm-other-lll-startbg .lm-yyxz-start {
+	float: left;
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+    background: url(../images/star1.png) left repeat-x;
+    background-size: 20px 20px;
+}
+.lm-topinfo .lm-topinfo-btn{
+	overflow: hidden;
+    padding: 20px 0;
+	border-bottom: 10px solid #f2f2f2;
+}
+.lm-topinfo .lm-topinfo-btn span {
+	display: inline-block;
+	min-width: 20%;
+	margin: 0 2%;
+	height: 40px;
+	border-radius: 2px;
+	font-size: 1.2rem;
+    color: #1199ff;
+    border: 2px solid #1199ff;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 5%;
+	cursor: pointer;
+}
+.lm-topinfo .lm-topinfo-btn span:hover {
+    color: #FFFFFF;
+	background-color: #1199ff;
+}
+.lm-topinfo .lm-topinfo-tip1 {
+    color: #ff6600;
+    font-size: 1rem;
+    padding: 26px 10px;
+    margin: 0 auto;
+	border-bottom: 10px solid #f2f2f2;
+}
+.lm-topinfo .lm-topinfo-tip1>i {
+	font-style: normal;
+}
+.lm-topinfo .lm-topinfo-tip2 {
+    word-wrap: break-word;
+    padding: 10px 30px;
+    margin: 20px;
+    line-height: 1.6rem;
+    color: #ff6600;
+    background: #FFFBF3;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px dashed #FF9900;
+}
+.lm-topinfo .lm-topinfo-tip2 a {
+    color: #1199FF;
+}
+/* 内容 start */
+.lm-dlpag-contentbox {
+	padding: 0;
+}
+.lm-dlpag-contentbox .lm-introduce {
+    border-bottom: 10px solid #f2f2f2;
+    padding: 20px 0 0 0;
+}
+.lm-dlpag-contentbox .lm-introduce>h4 {
+	margin: 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 5px solid #1199FF;
+}
+.lm-dlpag-contentbox .lm-introduce>div {
+    word-wrap: break-word;
+	color: #666666;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding: 20px;
+}
+.lm-dlpag-contentbox .lm-introduce>div #appxtx {
+	white-space: pre-line;
+}
+.lm-dlpag-contentbox .lm-introduce>div #appdesc {
+	white-space: pre-line;
+}
+.lm-dlpag-contentbox .lm-introduce>div .lm-appdesc {
+	max-height: 75px;
+	overflow: hidden;
+}
+.lm-dlpag-contentbox .lm-introduce>div #more{
+	display: block;
+	background: url(../images/more.png) no-repeat center center;
+	background-size: 16px;
+	width:100%;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.lm-dlpag-contentbox .lm-introduce>div #more.rotate{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	transition:all 0.2s ease 0s; 
+}
+/* footer start */
+.lm-dlpag-footbox {
+	overflow: hidden;
+	text-align: left;
+	background-color: #f2f2f2;
+    font-size: 1rem;
+    text-align: center;
+}
+.lm-dlpag-footbox>h4 {
+	line-height: 30px;
+    color: #333333;
+    border-bottom: 1px solid #CCCCCC;
+}
+.lm-dlpag-footbox>div {
+	padding: 10px;
+    font-size: 0.9rem;
+    color: #666666;
+    line-height: 1.8rem;
+}
