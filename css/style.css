@@ -222,7 +222,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*-- //Banner-Slider --*/ 
 /*-- Headings --*/
-.about h1, .features h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3  {
+.about h1, .features h2, .real h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3  {
 	font-size: 40px;
 	font-weight: 700;
 	color:#FF5722;
@@ -379,7 +379,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .real {
 	background: url("../images/real1.jpg")no-repeat center fixed; 
 	background-size: cover; 
-	padding: 100px 0;
+	padding: 40px 0;
 	text-align: center;
 }
 .real img {
@@ -397,9 +397,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .real h3 {
     font-size: 30px;
 	/* color: #bdd001; */
-	color: blue;
+	color: red;
     margin-top: 50px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .real p {
 	margin-top:15px;
