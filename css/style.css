@@ -244,7 +244,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 } 
 .about h3 {
 	padding: 0 20px;
-	line-height: 40px;
+	line-height: 30px;
 	color: #777;
 	font-weight: 600;
 } 
@@ -267,11 +267,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 .about-agileinfo-grid h5 {
 	font-size: 25px;
 	font-weight: 600;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 20px;
 	color: #F44336;
-	text-align: center;
 }  
+.about-agileinfo-grid p {
+	font-size: 20px;
+	display: inline;
+	font-weight: 400;
+	text-align: left;
+} 
 .about-agileinfo-grid li span.glyphicon {
 	margin-right: 10px;
 	color: #bdd001;
