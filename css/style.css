@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #FFF;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'STHeiti', "Microsoft YaHei", 'SimSun';
 }
 
 body a {
@@ -69,13 +69,9 @@ a:focus, a:hover {
 	width: 100%;
 	padding: 11px 0;
 } 
-a.navbar-logo {
-	display: inline-block;
-	margin-bottom: -23px;
-	position: relative;
-	height: 50px;
-	/* font-family: 'Racing Sans One', cursive;
-	font-size: 50px; */
+a.navbar-brand {
+	font-family: 'Racing Sans One', cursive;
+	font-size: 50px;
 } 
 .navbar-default .navbar-brand {
 	color: #C0C6C6;
@@ -222,13 +218,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*-- //Banner-Slider --*/ 
 /*-- Headings --*/
-.about h1, .features h2, .real h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3  {
+.about h1, .real h1, .stats h3, .features h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3  {
 	font-size: 40px;
 	font-weight: 700;
 	color:#FF5722;
-} 
-.progressive-effects h3, .contact h3 {
-	color: #FFF;
 } 
 .w3-agileitsline {
 	height: 5px;
@@ -240,43 +233,34 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*-- //Headings --*/ 
 /*-- About --*/
 .about {
-	padding: 50px 0 10px;
+	padding: 50px 0 30px;
 } 
 .about h3 {
-	padding: 0 20px;
-	line-height: 30px;
+	padding: 0 50px;
+	line-height: 40px;
 	color: #777;
 	font-weight: 600;
 } 
 .about h4 {
 	font-size: 20px;
-	margin: 10px 30px 30px 30px;
-	line-height: 30px;
-	text-align: left;
+	margin: 30px 30px 20px;
 	color: #777;
-} 
-.about h4 strong{
-	font-size: 25px;
+	
+	text-indent: 2em;
+	line-height: 33px;
 	text-align: left;
-	color: rgb(243, 8, 8);
 } 
-.about-agileinfo-list, .about-agileinfo-image {
-	width: 33%;
+.about-agileinfo-list1, .about-agileinfo-list2, .about-agileinfo-image {
+	width: 50%;
 	float: left;
 } 
 .about-agileinfo-grid h5 {
 	font-size: 25px;
 	font-weight: 600;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 20px;
 	color: #F44336;
 }  
-.about-agileinfo-grid p {
-	font-size: 20px;
-	display: inline;
-	font-weight: 400;
-	text-align: left;
-} 
 .about-agileinfo-grid li span.glyphicon {
 	margin-right: 10px;
 	color: #bdd001;
@@ -286,6 +270,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin: 15px 0;
 	font-weight: 600;
 	color: #999;
+}
+.about-agileinfo-grid img {
+	margin: 15px 10px;
 }
 /*-- //About --*/ 
 /*-- Features --*/
@@ -337,7 +324,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 	transition:.5s all;
 }
 .features-item p {
-    font-size: 14px;
+	font-size: 14px;
+	color: black;
     padding: 20px 0;
     font-weight: 400;
     -webkit-transition:.5s all;
@@ -379,8 +367,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .real {
 	background: url("../images/real1.jpg")no-repeat center fixed; 
 	background-size: cover; 
-	padding: 40px 0;
+	padding: 50px 0;
 	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 .real img {
     width: 200px;
@@ -396,10 +385,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .real h3 {
     font-size: 30px;
-	/* color: #bdd001; */
-	color: red;
+    color: #bdd001;
     margin-top: 50px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .real p {
 	margin-top:15px;
@@ -431,8 +419,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .new li {
     display: block; 
-    font-weight: 600;
-    font-size: 1em;
+    font-weight: 450;
+	font-size: 1.2em;
+	line-height: 32px;
     color: #999;
 }
 .mfp-auto-cursor .mfp-content h3 {
@@ -507,9 +496,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*-- //Formats --*/
 /*-- Progressive-Effects --*/
 .progressive-effects {
-	background: url("../images/real.jpg")no-repeat center fixed; 
+	background: url("../images/real1.jpg")no-repeat center fixed; 
 	background-size: cover; 
-	padding: 100px 0;
+	padding: 20px 0 50px;
 	text-align: center;
 }
 /*-- Progress-Bar --*/
@@ -837,7 +826,7 @@ textarea:active, textarea:focus {
 	background-color: #212121;
 } 
 .footer-info {
-	margin-top: 50px;
+	margin: 50px 0 30px;
 } 
 .footer h4 {
     color: #ff5722;
