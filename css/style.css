@@ -433,6 +433,26 @@ ul.callbacks_tabs.callbacks1_tabs {
 .new-w3lsgrid ul {
     margin: 30px 0 0 50px;
 }
+.new img {
+    width: 150px;
+    border: 3px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+    border-radius: 50%; 
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	transition:.5s all;
+}
+.new p {
+	font-family: "微软雅黑";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #777777;
+    color: #7f7f7f;
+}
 .new li {
     display: block; 
     font-weight: 350;
