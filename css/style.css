@@ -88,6 +88,9 @@ a.navbar-brand {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color: #FFF;
 } 
+.navbar-logo img{
+	width: auto;
+}
 /*-- Link-Hover-Effect --*/
 .hover-effect a {
 	padding: 10px;
@@ -1258,6 +1261,10 @@ a.mail:hover {
 	}
 	.navbar-default .navbar-nav>li>a { 
 		text-align: center;
+	}
+	.navbar-logo img{
+		height: 60px;
+		padding: 5px;
 	}
 }
 @media screen and (max-width:736px) {
