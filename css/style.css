@@ -444,6 +444,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .new .container .member{
 	flex: 1;
 	margin: 0 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .new-w3lsgrid ul {
     margin: 30px 0 0 50px;
@@ -459,6 +462,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
 	transition:.5s all;
+	margin: 25px 0;
 }
 .new p {
 	font-family: "微软雅黑";
@@ -466,7 +470,8 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-size: 12px;
     line-height: 1.8;
     color: #777777;
-    color: #7f7f7f;
+	color: #7f7f7f;
+	margin: 0 10px;
 }
 .new li {
     display: block; 
