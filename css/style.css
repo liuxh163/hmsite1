@@ -252,7 +252,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding: 50px 0 30px;
 } 
 .about p{
-	font-size: 10px;
+	font-size: 12px;
 } 
 .about h3 {
 	padding: 0 50px;
@@ -436,12 +436,20 @@ ul.callbacks_tabs.callbacks1_tabs {
     text-align: left;
     margin-left: 2em;
 }
-
+.new .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.new .container .member{
+	flex: 1;
+	margin: 0 3px;
+}
 .new-w3lsgrid ul {
     margin: 30px 0 0 50px;
 }
 .new img {
-    width: 150px;
+    width: 130px;
     border: 3px solid #fff;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
