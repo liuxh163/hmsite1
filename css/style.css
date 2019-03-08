@@ -463,7 +463,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .new p {
 	font-family: "微软雅黑";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.8;
     color: #777777;
     color: #7f7f7f;
@@ -485,7 +485,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .formats p {
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 	margin-bottom: 30px;
 } 
