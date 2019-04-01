@@ -799,8 +799,8 @@ ul.callbacks_tabs.callbacks1_tabs {
     margin: 0 2.5em;
     display: inline-block;
 }
-.app-qrcode{
-	width: 11.5%;
+.app-qrcode img{
+    padding: 2px;
 }
 /*-- //Download --*/
 /*-- Map --*/
