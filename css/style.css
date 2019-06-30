@@ -1225,6 +1225,9 @@ img.parallax-slider.loaded, .ie img.parallax-slider, .ie9 img.parallax-slider {
 	background-size:cover;
 	z-index:-2;
 }
+#header .header-bg div{
+	height: 100%;
+}
 #header .header-bg1 {
 	position:absolute;
 	top:0px;
