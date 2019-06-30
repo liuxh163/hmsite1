@@ -181,7 +181,9 @@ button.mfp-arrow {
   -webkit-appearance: none;
   display: block;
   padding: 0;
-  z-index: 1046; }
+  z-index: 1046; 
+  box-shadow: none;
+  color:#333 !important;}
  
 
 button::-moz-focus-inner {
